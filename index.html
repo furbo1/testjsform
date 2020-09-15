@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit='select(event)'>
+        <label for='fname'> First Name<input type='text' id='fname'></label>
+        <label for='lname'> Last Name<input type='text' id="lname"></label>
+        <label for='email'> Email<input type='email' id="email"></label>
+        <label for='password'> Password<input  id="password"></label>
+        <select id='country'>
+            <option>
+                --Select Country--
+            </option>
+            <option value='Germany'> Germany</option>
+            <option value='Pakistan'>Pakistan</option>
+            <option value='Sweden'> Sweden</option>
+            <option value='USA'> USA</option>
+        </select>
+        <input type="radio" id="huey" name="drone" value="huey" checked>
+        <label for="huey">Huey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+        </div>
+
+        <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+        </div>
+        <button type="submit"> Submit</button>
+
+
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
